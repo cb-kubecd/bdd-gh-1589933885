@@ -1,0 +1,4 @@
+FROM scratch
+EXPOSE 8080
+ENTRYPOINT ["/bdd-gh-1589933885"]
+COPY ./bin/ /
